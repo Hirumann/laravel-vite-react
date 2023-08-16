@@ -1,0 +1,14 @@
+.nav__link {
+    display: inline-block;
+    height: 1.7rem;
+    background: linear-gradient(red 0 0) bottom /var(--d, 0) 3px no-repeat;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.nav__link:hover {
+    --d: 90%;
+  }
